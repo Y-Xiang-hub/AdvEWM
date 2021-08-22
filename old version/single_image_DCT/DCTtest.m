@@ -13,4 +13,4 @@ for n = 1:10
 end
 
 % output
-subplot(1,1,1),imshow(theimgname),title('Image after embedding watermarkingñ');
+subplot(1,1,1),imshow(theimgname),title('Image after embedding watermarkingÃ±');
