@@ -1,4 +1,9 @@
-% RGB separation
+% @Time     : 1 June, 2020
+% @Author   : Tiantian Li and Yuexin Xiang
+% @Email    : ltt@cug.edu.cn or yuexin.xiang@cug.edu.cn
+% @Function : RGB separation
+
+
 function [R,G,B] = RGBseparate(ImgName)
 image = imread(ImgName);
 image_r = image(:,:,1);
