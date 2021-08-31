@@ -1,3 +1,8 @@
+% @Time     : 1 June, 2020
+% @Author   : Tiantian Li and Yuexin Xiang
+% @Email    : ltt@cug.edu.cn or yuexin.xiang@cug.edu.cn
+
+
 clear
 clc
 
