@@ -3,6 +3,7 @@
 % @Email    : ltt@cug.edu.cn or yuexin.xiang@cug.edu.cn
 % @Function : the watermark image is embedded into the original image by the DWT-based patchwork watermarking algorithm for several times
 
+
 clc
 clear
 
