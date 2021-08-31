@@ -3,6 +3,7 @@
 % @Email    : ltt@cug.edu.cn or yuexin.xiang@cug.edu.cn
 % @Function : RGB separation
 
+
 function [R,G,B] = RGBseparate(ImgName)
 image = imread(ImgName);
 image_r = image(:,:,1);
