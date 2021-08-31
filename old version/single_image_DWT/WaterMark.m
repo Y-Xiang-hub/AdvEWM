@@ -1,9 +1,9 @@
 % @Time     : 1 June, 2020
 % @Author   : Tiantian Li and Yuexin Xiang
 % @Email    : ltt@cug.edu.cn or yuexin.xiang@cug.edu.cn
-% @Function : input
 
 
+% input
 function [ImgName] = WaterMark(OriImg,WmImg,AlphaR,AlphaG,AlphaB)
 
 % RGB separation of the original image
