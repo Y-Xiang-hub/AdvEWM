@@ -1,3 +1,8 @@
+% @Time     : 1 June, 2020
+% @Author   : Tiantian Li and Yuexin Xiang
+% @Email    : ltt@cug.edu.cn or yuexin.xiang@cug.edu.cn
+
+
 function [cA1,cH1,cV1,cD1,cA2,cH2,cV2,cD2,cA3,cH3,cV3,cD3] = nDWT(I,N)
 if N==3
     [c,s] = wavedec2(double(I),3,'haar');
