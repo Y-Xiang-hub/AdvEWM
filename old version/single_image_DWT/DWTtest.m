@@ -1,4 +1,4 @@
-% @Time		: 1 June, 2020
+% @Time     : 1 June, 2020
 % @Author	: Tiantian Li and Yuexin Xiang
 % @Email	: ltt@cug.edu.cn or yuexin.xiang@cug.edu.cn
 % @Function : the watermark image is embedded into the original image by the DWT-based patchwork watermarking algorithm for several times
