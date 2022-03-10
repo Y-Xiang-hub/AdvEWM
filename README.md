@@ -8,4 +8,4 @@ This is the core code of [our work](https://arxiv.org/abs/2009.05107). We need t
       year={2020}
     }
 
-If you have any questions please feel free to contact me on e-mail yuexin.xiang@cug.edu.cn.
+If you have any questions please feel free to contact me on e-mail yuexin.xiang@cug.edu.cn or tiantian3@student.unimelb.edu.au.
