@@ -1,5 +1,6 @@
 # Generating Image Adversarial Examples by Embedding Digital Watermarks
-This is the core code of [our work](https://arxiv.org/abs/2009.05107). We need to mention that this is only the preliminary of our work. We will update the code after we finish all the work. For now, if you find our code is helpful for your research, please considering citing it as:
+
+<!-- This is the core code of [our work](https://arxiv.org/abs/2009.05107). We need to mention that this is only the preliminary of our work. We will update the code after we finish all the work. For now, if you find our code is helpful for your research, please considering citing it as:
 
     @article{xiang2020efficiently,
       title={Efficiently Constructing Adversarial Examples by Feature Watermarking},
@@ -9,3 +10,4 @@ This is the core code of [our work](https://arxiv.org/abs/2009.05107). We need t
     }
 
 If you have any questions please feel free to contact me by e-mail yuexin.xiang@cug.edu.cn or tiantian3@student.unimelb.edu.au.
+ -->
