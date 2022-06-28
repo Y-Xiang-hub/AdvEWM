@@ -16,6 +16,8 @@ import Tdensenet
 # import Tvgg
 # import Tdensenet
 # import Tmobilenet
+# import Tefficientnet
+# import Tvit
 
 import torch
 # import torch.nn as nn
