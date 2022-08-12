@@ -1,7 +1,6 @@
 # Generating Image Adversarial Examples by Embedding Digital Watermarks
 
-This is the core code of [our work](https://arxiv.org/abs/2009.05107). We need to mention that this is only the preliminary of our work. We will update the code after we finish all the work. For now, if you find our code is helpful for your research, please considering citing it as:
-
+This is the core code of [our work](https://arxiv.org/abs/2009.05107), if you find our code is helpful for your research, please considering citing it as:
 
     @misc{https://doi.org/10.48550/arxiv.2009.05107,
       doi = {10.48550/ARXIV.2009.05107},
