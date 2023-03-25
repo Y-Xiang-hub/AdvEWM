@@ -32,12 +32,17 @@ MAX_TIMES = 9  # 2 times for dwt 10 for dct (0 represent 1, 1 represent 2)
 MAX_FAULT_COUNT = 10  # fault count
 TOTAL_SUCCESS = 0  # to count the total successful result number
 TOTAL_NUM = 0  # to count the total number
+RAND_EMB_STR = False  # generate embedding strength randomly or not
 
 # dct ori
 R = 0.010
 G = 0.020
 B = 0.005
-
+if RAND_EMB_STR:
+    random.seed(111)
+    R = random.random() / 50
+    G = random.random() / 50
+    B = random.random() / 50
 
 my_device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
