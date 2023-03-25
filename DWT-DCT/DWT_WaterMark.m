@@ -61,9 +61,9 @@ wm_B = idwt2(cA1b, cH1b, cV1b, cD1b, 'haar');
 
 % output
 wm_img = cat(3, wm_R, wm_G, wm_B);
-%wm_img = imresize(wm_img, [32,32]);
+% wm_img = imresize(wm_img, [32,32]);
 
-% for CIFAR-10
+%% for CIFAR-10
 % path = fullfile(OutputDir,['times',int2str(times)],int2str(i));
 % imwrite(uint8(wm_img), [path,'/','dwt.',int2str(i),'_',int2str(j),'.jpg']);
 % ImgName = [path,'/','dwt.',int2str(i),'_',int2str(j),'.jpg'];
@@ -85,7 +85,7 @@ else
 end
 
 
-% for Kaggle
+%% for Kaggle
 % imwrite(uint8(wm_img), [OutputDir,'/','dwt.','cat',int2str(i),'b',int2str(j),'.',int2str(times),'.jpg']);
 % ImgName = [OutputDir,'/','dwt.','cat',int2str(i),'b',int2str(j),'.',int2str(times),'.jpg'];
 % imwrite(uint8(wm_img), [OutputDir,'/','dwt.','dog',int2str(class_ori),'a',int2str(class_wm),'.',int2str(times),'.jpg']);
