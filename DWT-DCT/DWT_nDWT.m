@@ -1,7 +1,6 @@
 function [cA1,cH1,cV1,cD1,cA2,cH2,cV2,cD2,cA3,cH3,cV3,cD3] = DWT_nDWT(I,N)
 if N==3
     [c,s] = wavedec2(double(I),3,'haar');
-   % [c,s] = wavedec2(I,3,'haar');
     cA1 = appcoef2(c,s,'haar',1);
     cH1 = detcoef2('h',c,s,1);
     cV1 = detcoef2('v',c,s,1);
@@ -28,7 +27,6 @@ end
 
 if N==1
     [c,s] = wavedec2(double(I),1,'haar');
-   % [c,s] = wavedec2(I,1,'haar');
     cA1 = appcoef2(c,s,'haar',1);
     cH1 = detcoef2('h',c,s,1);
     cV1 = detcoef2('v',c,s,1);
