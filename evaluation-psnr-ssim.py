@@ -1,3 +1,4 @@
+import os
 import numpy as np
 from PIL import Image
 from skimage.metrics import structural_similarity as ssim
@@ -15,11 +16,23 @@ def evaluate_image(imageA, imageB):
 
 
 if __name__ == "__main__":
-    img1 = Image.open('img1.bmp')
-    img2 = Image.open('img2.bmp')
-    img1_arr = np.asarray(img1)
-    img2_arr = np.asarray(img2)
-    ssim_score, psnr_score = evaluate_image(img1_arr, img2_arr)
+    folder_path_ori = ''
+    folder_path_wm = ''
+    imgs_ori = os.listdir(folder_path_ori)
+    # imgs_wm = os.listdir(folder_path_wm)
+    ssim_sum = []
+    psnr_sum = []
+    for img in imgs_ori:
+        if img.endswith('.bmp'):
+            img = Image.open(img)
+            img = np.asarray(img)
+            img_wm = Image.open(folder_path_wm + '/' + img[:-4] + '_wm.bmp')
+            img_wm = np.asarray(img_wm)
+            ssim_score, psnr_score = evaluate_image(img, img_wm)
+            ssim_sum.append(ssim_score)
+            psnr_sum.append(psnr_score)
+    ssim_score = np.mean(ssim_sum)
+    psnr_score = np.mean(psnr_sum)
 
-    print("SSIM: {}".format(ssim_score))
-    print("PSNR: {}".format(psnr_score))
+    print("Average SSIM: {}".format(ssim_score))
+    print("Average PSNR: {}".format(psnr_score))
