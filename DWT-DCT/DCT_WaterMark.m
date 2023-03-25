@@ -28,7 +28,7 @@ K3 = idct2(N3);
 wm_img = cat(3, K1, K2, K3);
 
 
-% for CIFAR-10
+%% for CIFAR-10
 if times == 1
     [~, nameo, ~] = fileparts(OriImg);
 	[~, namew, ~] = fileparts(WmImg);
@@ -45,7 +45,7 @@ else
 end
 
 
-% for Kaggle
+%% for Kaggle
 % imwrite(uint8(wm_img), [OutputDir,'dct.','cat',int2str(class_ori),'b',int2str(class_wm),'.',int2str(times),'.jpg']);
 % ImgName = [OutputDir,'dct.','cat',int2str(class_ori),'b',int2str(class_wm),'.',int2str(times),'.jpg'];
 % imwrite(uint8(wm_img), [OutputDir,'dct.','dog',int2str(class_ori),'a',int2str(class_wm),'.',int2str(times),'.jpg']);
