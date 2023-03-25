@@ -63,6 +63,7 @@ def img_prediction(LOADER, class_name):
     return confidence_LOADER, predicted_LOADER.item()
 
 
+# Add dwt-dct watermark
 def add_dwt_dct_wm(img_ori_PATH, img_wm_PATH,
                strength_R, strength_G, strength_B,
                ori_CLASS, wm_CLASS, TIMES, img_output_PATH, eng):
