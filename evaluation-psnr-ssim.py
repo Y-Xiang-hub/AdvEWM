@@ -16,8 +16,8 @@ def evaluate_image(imageA, imageB):
 
 
 if __name__ == "__main__":
-    folder_path_ori = r'C:\Users\dell\Desktop\General Watermark Dataset'
-    folder_path_wm = r'C:\Users\dell\Desktop\AI\AI_AEs_Code_Pytorch\Dataset\CIFAR-10\DWT_AEs\EfficientNet'
+    folder_path_ori = 'Img_path'
+    folder_path_wm = 'AEs_path'
     categories = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     for c in categories:
         folder_path_ori_c = folder_path_ori + '/' + c
