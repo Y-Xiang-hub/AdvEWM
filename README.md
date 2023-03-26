@@ -1,4 +1,4 @@
-# Generating Image Adversarial Examples by Embedding Digital Watermarks
+# AdvEWM: Generating Image Adversarial Examples by Embedding Digital Watermarks
 
 This is the core code of [our work](https://arxiv.org/abs/2009.05107), if you find our code is helpful for your research, please considering citing it as:
 
