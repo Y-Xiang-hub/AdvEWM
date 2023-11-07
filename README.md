@@ -10,5 +10,5 @@ This is the core code of [our work](https://arxiv.org/abs/2009.05107), if you fi
       year = {2020},
     }
 
-If you have any questions please feel free to contact us at yuexin.xiang@cug.edu.cn or tiantian3@student.unimelb.edu.au.
+If you have any questions please feel free to contact us at Yuexin.Xiang@monash.edu.
 
