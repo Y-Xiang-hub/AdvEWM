@@ -2,13 +2,16 @@
 
 This is the core code of [our work](https://arxiv.org/abs/2009.05107), if you find our code helpful for your research, please consider citing it as:
 
-    @misc{https://doi.org/10.48550/arxiv.2009.05107,
-      doi = {10.48550/ARXIV.2009.05107},
-      author = {Xiang, Yuexin and Li, Tiantian and Ren, Wei and Zhu, Tianqing and Choo, Kim-Kwang Raymond},
-      title = {Generating Image Adversarial Examples by Embedding Digital Watermarks},
-      publisher = {arXiv},
-      year = {2020},
-    }
+    @article{XIANG2024103662,
+        title = {AdvEWM: Generating image adversarial examples by embedding digital watermarks},
+        journal = {Journal of Information Security and Applications},
+        volume = {80},
+        pages = {103662},
+        year = {2024},
+        issn = {2214-2126},
+        doi = {https://doi.org/10.1016/j.jisa.2023.103662},
+        author = {Yuexin Xiang and Tiantian Li and Wei Ren and Jie He and Tianqing Zhu and Kim-Kwang Raymond Choo}
+}
 
 If you have any questions please feel free to contact us at Yuexin.Xiang@monash.edu.
 
